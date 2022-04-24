@@ -4,11 +4,11 @@
   "description": "Mi primer projecto de JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/sheepshenko/my_first_js_project.git"
+    "url": "https://github.com/sheepshenko/my_first_js_project"
   },
   "keywords": [
     "js",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/sheepshenko/my_first_js_project/issues"
   },
-  "homepage": "https://github.com/sheepshenko/my_first_js_project#readme"
+  "homepage": "https://github.com/sheepshenko/my_first_js_project#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
 }
